@@ -66,15 +66,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
-                <span>123 Leather Lane, Business District, City 10001</span>
+                <span>House # 7/2/C, Shyamoli, Dhaka-1207, Bangladesh</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+880 1711 862446</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
-                <span>info@tanova.com</span>
+                <span>info@tanova.com.bd</span>
               </li>
             </ul>
           </div>
