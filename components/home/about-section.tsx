@@ -44,9 +44,9 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              At Tanova, we understand that exceptional leather is the foundation 
-              of extraordinary products. Our global network spans the most 
-              prestigious tanneries across continents, ensuring access to materials 
+              At Tanova, we understand that exceptional leather is the foundation
+              of extraordinary products. Our global network spans the most
+              prestigious tanneries across continents, ensuring access to materials
               that meet the most exacting standards.
             </motion.p>
 
@@ -57,9 +57,9 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed mt-6"
             >
-              Every piece we source undergoes rigorous quality assessment, 
-              guaranteeing consistency that discerning manufacturers demand. 
-              Our commitment to excellence has made us the trusted partner 
+              Every piece we source undergoes rigorous quality assessment,
+              guaranteeing consistency that discerning manufacturers demand.
+              Our commitment to excellence has made us the trusted partner
               for luxury brands worldwide.
             </motion.p>
           </div>
@@ -84,7 +84,7 @@ export function AboutSection() {
           >
             <div className="lg:hidden w-px h-24 bg-primary mx-auto mb-12" />
             <div className="relative aspect-[4/5] overflow-hidden">
-              <div 
+              <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
                 style={{
                   backgroundImage: `url('https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=2009&auto=format&fit=crop')`,

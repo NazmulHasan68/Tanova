@@ -8,6 +8,8 @@ import HeroSlide from '@/models/HeroSlide'
 import { AboutSection } from '@/components/home/about-section'
 import { WhyChooseSection } from '@/components/home/why-choose-section'
 import { ProcessSection } from '@/components/home/process-section'
+import { ComplianceSection } from '@/components/home/compliance-section'
+import { LeatherProcessingSection } from '@/components/home/leather-processing-section'
 
 async function getHeroSlides() {
   try {
@@ -31,6 +33,8 @@ export default async function HomePage() {
       <AboutSection/>
       <WhyChooseSection/>
       <ProcessSection/>
+      <ComplianceSection />
+      <LeatherProcessingSection />
       <CTASection />
       <Footer />
     </main>
