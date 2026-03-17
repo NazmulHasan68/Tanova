@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useTheme } from 'next-themes'
@@ -34,6 +34,11 @@ export function AdminSidebar() {
   const { theme, setTheme } = useTheme()
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   const handleLogout = async () => {
     await fetch('/api/auth/logout', { method: 'POST' })
@@ -95,14 +100,20 @@ export function AdminSidebar() {
           onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
           className={cn("w-full justify-start gap-3", collapsed && "justify-center")}
         >
-          {theme === 'dark' ? (
-            <Sun className="h-5 w-5" />
+          {mounted ? (
+            <>
+              {theme === 'dark' ? (
+                <Sun className="h-5 w-5" />
+              ) : (
+                <Moon className="h-5 w-5" />
+              )}
+              <span className={cn(collapsed && "hidden")}>
+                {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
+              </span>
+            </>
           ) : (
-            <Moon className="h-5 w-5" />
+            <div className="h-5 w-5" /> // Placeholder to prevent mismatch
           )}
-          <span className={cn(collapsed && "hidden")}>
-            {theme === 'dark' ? 'Light Mode' : 'Dark Mode'}
-          </span>
         </Button>
         
         <Link href="/" target="_blank">

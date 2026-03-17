@@ -4,6 +4,30 @@ import GalleryImage from '@/models/Gallery'
 import { getSession } from '@/lib/auth'
 import { deleteImage } from '@/lib/cloudinary'
 
+export async function GET(
+  request: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    await connectDB()
+    const { id } = await params
+    
+    const image = await GalleryImage.findById(id)
+    
+    if (!image) {
+      return NextResponse.json({ error: 'Image not found' }, { status: 404 })
+    }
+
+    return NextResponse.json(image)
+  } catch (error) {
+    console.error('Get gallery image error:', error)
+    return NextResponse.json(
+      { error: 'Failed to fetch gallery image' },
+      { status: 500 }
+    )
+  }
+}
+
 export async function PUT(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
