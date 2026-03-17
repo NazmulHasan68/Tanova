@@ -32,7 +32,7 @@ const steps = [
 
 export function ProcessSection() {
   return (
-    <section className="py-24 lg:py-32 px-6 bg-secondary/50 relative overflow-hidden">
+    <section className="py-24 lg:py-32 px-2 md:px-6 bg-secondary/50 relative overflow-hidden">
       {/* Background Decorative Element */}
       <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -58,7 +58,7 @@ export function ProcessSection() {
           >
             Ordering Procedure
           </motion.h2>
-          
+
           <motion.div
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
@@ -80,14 +80,14 @@ export function ProcessSection() {
                   index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
                 )}>
                   {/* Content */}
-                  <div className="w-full lg:w-1/2 px-4 lg:px-12">
+                  <div className="w-full lg:w-1/2 px-2 md:px-4 lg:px-12">
                     <motion.div
                       initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ duration: 0.8, delay: index * 0.1 }}
                       viewport={{ once: true }}
                       className={cn(
-                        "p-8 rounded-2xl bg-card border border-border shadow-sm hover:shadow-md transition-shadow duration-300",
+                        "md:p-8 p-3 rounded-2xl bg-card border border-border shadow-sm hover:shadow-md transition-shadow duration-300",
                         index % 2 === 0 ? "lg:text-right" : "lg:text-left"
                       )}
                     >

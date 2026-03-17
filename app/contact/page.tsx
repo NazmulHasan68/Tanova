@@ -107,9 +107,9 @@ export default function ContactPage() {
       </section>
 
       {/* Map Integration */}
-      <section className="w-full h-[500px] border-t border-border grayscale hover:grayscale-0 transition-all duration-700">
+      <section className="w-full h-[500px] border-t border-border">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14605.029845341235!2d90.2246727!3d23.7738202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755940e8e04e9c7%3A0xe5a3c9a62243d6e!2sBSCIC%20Tannery%20Industrial%20Estate!5e0!3m2!1sen!2sbd!4v1710714800000!5m2!1sen!2sbd" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.7766348604595!2d90.24543836952702!3d23.78367037961713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzAxLjIiTiA5MMKwMTQnNDUuOSJF!5e0!3m2!1sen!2sbd!4v1710714800000!5m2!1sen!2sbd" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 

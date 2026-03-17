@@ -13,6 +13,7 @@ const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About Us' },
   { href: '/products', label: 'Products' },
+  { href: '/ordering', label: 'Ordering' },
   { href: '/chemicals', label: 'Chemicals' },
   { href: '/gallery', label: 'Gallery' },
   { href: '/contact', label: 'Contact' },
@@ -52,8 +53,9 @@ export function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex items-center px-2 gap-2">
             <span className="font-serif text-2xl font-bold text-foreground tracking-tight">
-              Tanova
+              TANOVA 
             </span>
+            <p></p>
           </Link>
 
           {/* Desktop Navigation */}

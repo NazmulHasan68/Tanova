@@ -44,8 +44,8 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              Tanova International is a premium leather and leather goods solutions provider from Bangladesh, 
-              specializing in technically supervised leather processing through selected partner tanneries, 
+              Tanova International is a premium leather and leather goods solutions provider from Bangladesh,
+              specializing in technically supervised leather processing through selected partner tanneries,
               refined leather goods design, and production management.
             </motion.p>
 
@@ -56,8 +56,8 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed mt-6"
             >
-              At TANOVA, leather is not treated as a commodity — it is a refined material shaped 
-              through engineering knowledge and responsible production coordination. We supply 
+              At TANOVA, leather is not treated as a commodity — it is a refined material shaped
+              through engineering knowledge and responsible production coordination. We supply
               more than just materials; we deliver complete, export-oriented leather solutions.
             </motion.p>
           </div>
@@ -85,7 +85,7 @@ export function AboutSection() {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
                 style={{
-                  backgroundImage: `url('https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?q=80&w=2009&auto=format&fit=crop')`,
+                  backgroundImage: `url('/leather/led7.jpg')`,
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/40 to-transparent" />

@@ -27,7 +27,7 @@ export function LeatherProcessingSection() {
             <div className="aspect-[4/3] rounded-3xl overflow-hidden relative shadow-2xl">
               <div 
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
-                style={{ backgroundImage: `url('https://images.unsplash.com/photo-1590674033320-b4d772238473?q=80&w=2070&auto=format&fit=crop')` }}
+                style={{ backgroundImage: `url('/leather/led2.jpg')` }}
               />
               <div className="absolute inset-0 bg-black/20" />
             </div>

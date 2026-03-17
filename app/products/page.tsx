@@ -65,11 +65,10 @@ export default function ProductsPage() {
             className="text-center"
           >
             <h1 className="font-serif text-4xl md:text-5xl text-foreground mb-4">
-              Material Gallery
+              Refining Leather. Defining Excellence.
             </h1>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Discover our curated collection of premium leather and materials, 
-              sourced from the finest producers worldwide.
+              Premium Leather & Leather Goods Solutions from Bangladesh
             </p>
           </motion.div>
         </div>

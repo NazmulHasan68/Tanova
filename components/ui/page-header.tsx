@@ -13,7 +13,7 @@ export function PageHeader({ title, subtitle, image }: PageHeaderProps) {
     <div className="relative h-[40vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       {image ? (
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url('${image}')` }}
         >
@@ -45,8 +45,7 @@ export function PageHeader({ title, subtitle, image }: PageHeaderProps) {
         )}
       </div>
 
-      {/* Decorative Border */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-background to-transparent" />
+
     </div>
   )
 }

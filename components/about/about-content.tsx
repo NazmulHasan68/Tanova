@@ -40,7 +40,7 @@ export function AboutContent() {
           >
             <div 
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url('https://images.unsplash.com/photo-1544465544-1b71aee9dfa3?q=80&w=2070&auto=format&fit=crop')` }}
+              style={{ backgroundImage: `url('/leather/led9.jpg')` }}
             />
           </motion.div>
         </div>
@@ -120,10 +120,18 @@ export function AboutContent() {
               and documentation standards required by international markets.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12">
-            {['Japan', 'Hong Kong', 'South Korea', 'Europe', 'Mexico', 'United States'].map((country) => (
-              <div key={country} className="px-6 py-3 border border-border rounded-full text-foreground font-serif hover:border-primary transition-colors">
-                {country}
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8">
+            {[
+              { name: 'Japan', flag: '🇯🇵' },
+              { name: 'Hong Kong', flag: '🇭🇰' },
+              { name: 'South Korea', flag: '🇰🇷' },
+              { name: 'Europe', flag: '🇪🇺' },
+              { name: 'Mexico', flag: '🇲🇽' },
+              { name: 'United States', flag: '🇺🇸' }
+            ].map((country) => (
+              <div key={country.name} className="flex items-center gap-3 px-6 py-3 border border-border rounded-full text-foreground font-serif hover:border-primary transition-all duration-300 hover:bg-primary/5 hover:scale-105 group">
+                <span className="text-2xl grayscale group-hover:grayscale-0 transition-all duration-300">{country.flag}</span>
+                <span className="font-medium">{country.name}</span>
               </div>
             ))}
           </div>
