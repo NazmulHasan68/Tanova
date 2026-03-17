@@ -14,10 +14,10 @@ export default function ContactPage() {
     <main className="min-h-screen">
       <Navigation />
 
-      <PageHeader 
-        title="Contact Us" 
+      <PageHeader
+        title="Contact Us"
         subtitle="Business Inquiries & Partnerships"
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop"
+        image="/bg6.jpg"
       />
 
       <section className="py-24 container mx-auto px-6">
@@ -32,8 +32,8 @@ export default function ContactPage() {
               Business Inquiry
             </h2>
             <p className="text-muted-foreground mb-12 leading-relaxed text-lg">
-              For leather, leather goods, or TANOVA leather processing chemical-related inquiries, 
-              please contact our commercial team. We welcome structured business discussions 
+              For leather, leather goods, or TANOVA leather processing chemical-related inquiries,
+              please contact our commercial team. We welcome structured business discussions
               and long-term international partnerships.
             </p>
 
@@ -80,14 +80,14 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2 text-lg">Head Office</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      House # 7/2/C, Shyamolima-3 Road # Garden Street,<br /> 
+                      House # 7/2/C, Shyamolima-3 Road # Garden Street,<br />
                       Ring Road Shyamoli, Dhaka-1207 Bangladesh
                     </p>
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2 text-lg">Corporate Office</h3>
                     <p className="text-muted-foreground leading-relaxed">
-                      BSCIC Tannery Industrial Estate Tannery Gate No. 2<br /> 
+                      BSCIC Tannery Industrial Estate Tannery Gate No. 2<br />
                       Horindha, Hemayetpur Savar, Dhaka-1340 Bangladesh
                     </p>
                   </div>
@@ -108,13 +108,13 @@ export default function ContactPage() {
 
       {/* Map Integration */}
       <section className="w-full h-[500px] border-t border-border">
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.7766348604595!2d90.24543836952702!3d23.78367037961713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzAxLjIiTiA5MMKwMTQnNDUuOSJF!5e0!3m2!1sen!2sbd!4v1710714800000!5m2!1sen!2sbd" 
-          width="100%" 
-          height="100%" 
-          style={{ border: 0 }} 
-          allowFullScreen 
-          loading="lazy" 
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d912.7766348604595!2d90.24543836952702!3d23.78367037961713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDQ3JzAxLjIiTiA5MMKwMTQnNDUuOSJF!5e0!3m2!1sen!2sbd!4v1710714800000!5m2!1sen!2sbd"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
