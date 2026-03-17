@@ -49,8 +49,8 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
           </div>
 
           {/* Content */}
-          <div className="p-4">
-            <div className="flex items-center justify-between mb-2">
+          <div className="md:p-4 p-2">
+            <div className="flex flex-col md:flex-row md:items-start items-center gap-2 justify-between mb-2">
               <Badge variant="secondary" className="text-xs capitalize">
                 {product.category}
               </Badge>
@@ -58,7 +58,7 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
                 {product.code}
               </span>
             </div>
-            <h3 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+            <h3 className="font-semibold line-clamp-2 text-foreground mb-1 group-hover:text-primary transition-colors">
               {product.name}
             </h3>
             <p className="text-sm text-muted-foreground line-clamp-2">

@@ -46,10 +46,10 @@ export function Navigation() {
           : 'bg-transparent'
       )}
     >
-      <nav className="container mx-auto px-6 py-4">
+      <nav className="container mx-auto px-2 md:px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
+          <Link href="/" className="flex items-center px-2 gap-2">
             <span className="font-serif text-2xl font-bold text-foreground tracking-tight">
               Tanova
             </span>
@@ -117,13 +117,13 @@ export function Navigation() {
         </div>
 
         {/* Mobile Navigation */}
-        <AnimatePresence>
+        <AnimatePresence >
           {isOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="md:hidden overflow-hidden"
+              className="md:hidden w-full bg-background p-3 overflow-hidden"
             >
               <div className="py-4 space-y-4">
                 {navLinks.map((link) => (

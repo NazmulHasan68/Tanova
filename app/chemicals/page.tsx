@@ -85,8 +85,8 @@ export default function ChemicalsPage() {
 
       {/* Features */}
       <section className="py-16 border-b border-[#b5843a]/40">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="container mx-auto px-3 md:px-6">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
@@ -110,7 +110,7 @@ export default function ChemicalsPage() {
       <section className="py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="font-serif text-4xl mb-12 text-[#b5843a]">Our Process</h2>
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-8">
             {[
               { num: '01', title: 'Quality Sourcing', desc: 'We source chemicals from trusted global suppliers ensuring safety and efficacy.' },
               { num: '02', title: 'Rigorous Testing', desc: 'All products undergo multi-stage testing for compliance with international standards.' },

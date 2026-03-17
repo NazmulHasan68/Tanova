@@ -23,7 +23,7 @@ export function CTASection() {
             Contact our team to discuss your requirements and discover how Tanova 
             can elevate your products with the finest leather and chemicals.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-row gap-4 justify-center">
             <Link href="/contact">
               <Button 
                 size="lg" 

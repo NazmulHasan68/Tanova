@@ -29,7 +29,7 @@ const features = [
 export function FeaturesSection() {
   return (
     <section className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-2">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ export function FeaturesSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
@@ -54,7 +54,7 @@ export function FeaturesSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group text-center p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors"
+              className="group text-center p-3 md:p-6 rounded-lg bg-card border border-border hover:border-primary/50 transition-colors"
             >
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-primary/10 text-primary mb-4 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
                 <feature.icon className="h-7 w-7" />

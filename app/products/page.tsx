@@ -99,9 +99,9 @@ export default function ProductsPage() {
 
       {/* Products Grid */}
       <section className="py-12">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-2 md:px-6">
           {loading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-6">
               {[...Array(8)].map((_, i) => (
                 <div key={i} className="space-y-4">
                   <Skeleton className="aspect-square rounded-lg" />
@@ -117,7 +117,7 @@ export default function ProductsPage() {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 md:gap-6">
               {products.map((product, index) => (
                 <ProductCard key={product._id} product={product} index={index} />
               ))}

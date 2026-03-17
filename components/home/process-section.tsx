@@ -43,7 +43,7 @@ export function ProcessSection() {
             className="absolute top-8 left-0 right-0 h-px bg-gradient-to-r from-primary via-primary to-transparent hidden md:block origin-left"
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {steps.map((step, index) => (
               <motion.div
                 key={step.number}
