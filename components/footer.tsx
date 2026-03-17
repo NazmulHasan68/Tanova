@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Global sourcing of the world&apos;s finest leather and chemicals with uncompromising quality standards.
+              Complete leather and leather goods solutions with structured technical oversight and export-oriented execution.
             </p>
           </div>
 

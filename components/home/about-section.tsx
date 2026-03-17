@@ -26,7 +26,7 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="font-serif text-4xl md:text-5xl lg:text-6xl leading-tight"
             >
-              Crafting Excellence Since Inception
+              Refining Leather. Defining Excellence.
             </motion.h2>
 
             <motion.div
@@ -44,10 +44,9 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              At Tanova, we understand that exceptional leather is the foundation
-              of extraordinary products. Our global network spans the most
-              prestigious tanneries across continents, ensuring access to materials
-              that meet the most exacting standards.
+              Tanova International is a premium leather and leather goods solutions provider from Bangladesh, 
+              specializing in technically supervised leather processing through selected partner tanneries, 
+              refined leather goods design, and production management.
             </motion.p>
 
             <motion.p
@@ -57,10 +56,9 @@ export function AboutSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed mt-6"
             >
-              Every piece we source undergoes rigorous quality assessment,
-              guaranteeing consistency that discerning manufacturers demand.
-              Our commitment to excellence has made us the trusted partner
-              for luxury brands worldwide.
+              At TANOVA, leather is not treated as a commodity — it is a refined material shaped 
+              through engineering knowledge and responsible production coordination. We supply 
+              more than just materials; we deliver complete, export-oriented leather solutions.
             </motion.p>
           </div>
 

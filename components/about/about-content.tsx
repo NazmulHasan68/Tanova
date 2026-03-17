@@ -18,15 +18,15 @@ export function AboutContent() {
             <div>
               <h2 className="font-serif text-4xl text-foreground mb-6 underline decoration-primary/30 underline-offset-8">Our Mission</h2>
               <p className="text-xl text-muted-foreground leading-relaxed italic font-serif border-l-4 border-primary pl-8">
-                "To deliver quality leather solutions guided by ethical practices and global standards."
+                "To deliver reliable, market-aligned leather and leather goods solutions through deep technical expertise and uncompromising quality discipline."
               </p>
             </div>
             
             <div className="pt-8">
               <h2 className="font-serif text-4xl text-foreground mb-6 underline decoration-primary/30 underline-offset-8">Our Vision</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To become a globally recognized leather and leather goods solutions house from Bangladesh — 
-                known for technical integrity, production excellence, and long-term international partnerships.
+                To be a globally recognized strategic partner for technically supervised leather solutions, 
+                known for engineering knowledge, global experience, and responsible production coordination.
               </p>
             </div>
           </motion.div>
@@ -55,14 +55,17 @@ export function AboutContent() {
         >
           <div className="absolute top-0 right-0 p-12 text-primary/10 font-serif text-9xl select-none">"</div>
           <div className="relative z-10 max-w-4xl mx-auto text-center">
-            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-10">Our Commitment</h2>
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+            <h2 className="font-serif text-4xl md:text-5xl text-foreground mb-10">Our Philosophy & Model</h2>
+            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed text-left">
               <p>
-                We are committed to maintaining consistent quality standards, transparent documentation, 
-                compliance-conscious production, and responsible chemical management at every stage of development.
+                At TANOVA, leather is not treated as a commodity — it is a refined material shaped through engineering knowledge, 
+                global experience, and responsible production coordination. We supply leather and leather goods while managing 
+                complete solutions with structured technical oversight.
               </p>
-              <p className="font-serif text-2xl text-primary pt-6">
-                "We build long-term partnerships through reliability, accountability, and continuous improvement."
+              <p>
+                TANOVA does not currently operate its own tannery facilities. Leather processing and development are conducted 
+                through carefully selected and technically supervised production partners, ensuring controlled systems, 
+                consistent quality standards, and reliable export-ready results.
               </p>
             </div>
           </div>
@@ -108,18 +111,23 @@ export function AboutContent() {
             </motion.div>
           </div>
 
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="mt-16 p-12 border border-primary/20 bg-primary/5 rounded-3xl text-center"
-          >
-            <p className="text-2xl font-serif text-foreground leading-relaxed italic">
-              "Together, their combined leadership enables Tanova International to deliver disciplined execution, 
-              responsible coordination, and long-term partnership value across international markets."
+        {/* Global Reach Section */}
+        <div className="pt-12">
+          <div className="text-center mb-12">
+            <h2 className="font-serif text-4xl text-foreground mb-4">Our Global Reach</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Our diverse global exposure enables us to understand different technical specifications, compliance expectations, 
+              and documentation standards required by international markets.
             </p>
-          </motion.div>
+          </div>
+          <div className="flex flex-wrap justify-center gap-6 md:gap-12">
+            {['Japan', 'Hong Kong', 'South Korea', 'Europe', 'Mexico', 'United States'].map((country) => (
+              <div key={country} className="px-6 py-3 border border-border rounded-full text-foreground font-serif hover:border-primary transition-colors">
+                {country}
+              </div>
+            ))}
+          </div>
+        </div>
         </div>
       </div>
     </div>
