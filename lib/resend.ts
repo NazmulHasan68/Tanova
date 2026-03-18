@@ -17,7 +17,7 @@ export async function sendContactEmail(data: ContactEmailData) {
   // Email to admin
   const adminEmail = await resend.emails.send({
     from: 'Tanova Contact <onboarding@resend.dev>',
-    to: 'sadiq.iqbal@bu.edu.bd',
+    to: 'info@tanova.com.bd',
     subject: `New Contact Inquiry: ${subject}`,
     html: `
       <!DOCTYPE html>
