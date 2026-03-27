@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Complete leather and leather goods solutions with structured technical oversight and export-oriented execution.
+              Complete leather and leather goods solutions driven by technical oversight and export-oriented execution.
             </p>
           </div>
 
@@ -71,8 +71,14 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
+                <span>+880 1729 095686</span>
+              </li>
+
+               <li className="flex items-center gap-3 text-sm text-muted-foreground">
+                <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
                 <span>+880 1711 862446</span>
               </li>
+
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 flex-shrink-0 text-primary" />
                 <span>info@tanova.com.bd</span>
