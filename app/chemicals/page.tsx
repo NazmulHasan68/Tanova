@@ -128,7 +128,7 @@ export default function ChemicalsPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="container mx-auto px-6 text-center">
           <h2 className="font-serif text-4xl mb-12 text-[#b5843a]">Trusted by Global Manufacturers</h2>
           <div className="grid md:grid-cols-3 gap-12">
@@ -144,13 +144,13 @@ export default function ChemicalsPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Products */}
       <section className="py-12">
         <div className="container mx-auto px-6">
           <h2 className="font-serif text-2xl md:text-3xl mb-8 text-[#b5843a]">Our Chemical Products</h2>
-          
+
           {loading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {[...Array(4)].map((_, i) => (
