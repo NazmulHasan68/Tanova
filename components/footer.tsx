@@ -67,14 +67,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
-                <span>House # 7/2/C, Shyamoli, Dhaka-1207, Bangladesh</span>
+                BSCIC Tannery Industrial Estate Tannery Gate No. 2<br />
+                Horindhra, Hemayetpur Savar, Dhaka-1340 Bangladesh
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
                 <span>+880 1729 095686</span>
               </li>
 
-               <li className="flex items-center gap-3 text-sm text-muted-foreground">
+              <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />
                 <span>+880 1711 862446</span>
               </li>
