@@ -49,7 +49,7 @@ export function WhyChooseSection() {
               viewport={{ once: true }}
               className="text-primary text-sm tracking-[0.3em] uppercase"
             >
-              03 — Expertise
+              02 — Expertise
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}

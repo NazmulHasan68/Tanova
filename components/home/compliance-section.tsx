@@ -23,13 +23,13 @@ export function ComplianceSection() {
             viewport={{ once: true }}
           >
             <span className="text-primary text-sm tracking-[0.3em] uppercase">
-              05 — Standards
+              03 — Standards
             </span>
             <h2 className="mt-6 font-serif text-4xl md:text-5xl lg:text-6xl text-foreground mb-8">
               Compliance & Global Standards
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-10">
-              Our leadership team is technically familiar with global environmental and social governance, 
+              Our leadership team is technically familiar with global environmental and social governance,
               enabling us to coordinate production in alignment with global buyer expectations.
             </p>
 

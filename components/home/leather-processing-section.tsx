@@ -25,7 +25,7 @@ export function LeatherProcessingSection() {
             className="w-full lg:w-1/2 relative"
           >
             <div className="aspect-[4/3] rounded-3xl overflow-hidden relative shadow-2xl">
-              <div 
+              <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
                 style={{ backgroundImage: `url('/leather/led2.jpg')` }}
               />
@@ -47,7 +47,7 @@ export function LeatherProcessingSection() {
               viewport={{ once: true }}
               className="text-primary text-sm tracking-[0.3em] uppercase"
             >
-              06 — Production
+              04 — Production
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
@@ -65,7 +65,7 @@ export function LeatherProcessingSection() {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed mb-10"
             >
-              We coordinate structured leather processing through technically aligned production partners, 
+              We coordinate structured leather processing through technically aligned production partners,
               ensuring the highest level of craftsmanship and technical precision.
             </motion.p>
 

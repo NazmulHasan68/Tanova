@@ -16,7 +16,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
-              Complete leather and leather goods solutions driven by technical oversight and export-oriented execution.
+              Complete leather and leather goods solutions driven by technical oversight, disciplined coordination and export-focused execution.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export function Footer() {
               <li className="flex items-start gap-3 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0 text-primary" />
                 BSCIC Tannery Industrial Estate Tannery Gate No. 2<br />
-                Horindhra, Hemayetpur Savar, Dhaka-1340 Bangladesh
+                Horindhara , Hemayetpur Savar, Dhaka-1340 Bangladesh
               </li>
               <li className="flex items-center gap-3 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 flex-shrink-0 text-primary" />

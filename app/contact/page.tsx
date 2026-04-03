@@ -47,10 +47,10 @@ export default function ContactPage() {
                   <h3 className="font-semibold text-foreground mb-2 text-lg">Email Addresses</h3>
                   <div className="space-y-1">
                     <p className="text-muted-foreground">
-                      <span className="font-medium text-foreground">Commercial:</span> export@tanova.com.bd
+                      <span className="font-medium text-foreground">General:</span> info@tanova.com.bd
                     </p>
                     <p className="text-muted-foreground">
-                      <span className="font-medium text-foreground">General:</span> info@tanova.com.bd
+                      <span className="font-medium text-foreground">Commercial:</span> export@tanova.com.bd
                     </p>
                     <p className="text-primary font-medium">www.tanova.com.bd</p>
                   </div>
@@ -82,7 +82,7 @@ export default function ContactPage() {
                     <h3 className="font-semibold text-foreground mb-2 text-lg">Corporate Office</h3>
                     <p className="text-muted-foreground leading-relaxed">
                       BSCIC Tannery Industrial Estate Tannery Gate No. 2<br />
-                      Horindhra, Hemayetpur Savar, Dhaka-1340 Bangladesh
+                      Horindhara, Hemayetpur Savar, Dhaka-1340 Bangladesh
                     </p>
                   </div>
 
@@ -112,7 +112,7 @@ export default function ContactPage() {
       {/* Map Integration */}
       <section className="w-full h-[500px] border-t border-border">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d456.37275738354157!2d90.2458647!3d23.7836532!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDQ3JzAxLjMiTiA5MMKwMTQnNDUuNiJF!5e0!3m2!1sen!2sbd!4v1775093497828!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d228.18637816521667!2d90.2458955!3d23.7836535!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDQ3JzAxLjIiTiA5MMKwMTQnNDUuOSJF!5e0!3m2!1sen!2sbd!4v1775208165559!5m2!1sen!2sbd"
           width="100%"
           height="100%"
           style={{ border: 0 }}
@@ -121,6 +121,7 @@ export default function ContactPage() {
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>
+
 
       <Footer />
     </main>

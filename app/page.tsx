@@ -28,9 +28,9 @@ export default async function HomePage() {
     <main className="min-h-screen">
       <Navigation />
       <HeroSlider slides={slides} />
-      <FeaturesSection />
-      <AboutSection/>
-      <WhyChooseSection/>
+      {/* <FeaturesSection /> */}
+      <AboutSection />
+      <WhyChooseSection />
       <ComplianceSection />
       <LeatherProcessingSection />
       <CTASection />

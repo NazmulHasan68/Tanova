@@ -13,7 +13,7 @@ export function AboutSection() {
           viewport={{ once: true }}
           className="text-primary text-sm tracking-[0.3em] uppercase"
         >
-          02 — About
+          01 — About
         </motion.span>
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0">
